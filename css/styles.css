@@ -6,13 +6,79 @@ body {
 /* line 7, ../scss/styles.scss */
 #wrapper {
   width: 100%;
+  height: auto;
+  background-color: #9D2429;
 }
 
-/* line 11, ../scss/styles.scss */
+/* line 13, ../scss/styles.scss */
 #head {
   width: 100%;
+  height: 120px;
 }
 /* line 17, ../scss/styles.scss */
+#head img {
+  float: left;
+}
+/* line 21, ../scss/styles.scss */
 #head ul {
   display: flex;
+}
+/* line 24, ../scss/styles.scss */
+#head ul li {
+  list-style-type: none;
+  flex: 1;
+  text-align: center;
+  margin: 0px;
+}
+/* line 30, ../scss/styles.scss */
+#head ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Times New Roman;
+}
+/* line 34, ../scss/styles.scss */
+#head ul li a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+/* line 46, ../scss/styles.scss */
+#bod {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+/* line 52, ../scss/styles.scss */
+#bod img {
+  float: left;
+  width: 70%;
+  height: auto;
+  margin: 15px;
+  box-sizing: border-box;
+}
+
+/* line 61, ../scss/styles.scss */
+#foot {
+  width: 100%;
+  height: 230px;
+  background-color: grey;
+}
+/* line 66, ../scss/styles.scss */
+#foot div {
+  float: left;
+}
+
+/* line 71, ../scss/styles.scss */
+.centrefoot {
+  display: block;
+  margin-top: 10px;
+}
+/* line 75, ../scss/styles.scss */
+.centrefoot img {
+  display: block;
+}
+
+/* line 80, ../scss/styles.scss */
+.rightfoot {
+  display: right;
 }
