@@ -1,0 +1,18 @@
+/* line 3, ../scss/styles.scss */
+body {
+  margin: 0;
+}
+
+/* line 7, ../scss/styles.scss */
+#wrapper {
+  width: 100%;
+}
+
+/* line 11, ../scss/styles.scss */
+#head {
+  width: 100%;
+}
+/* line 17, ../scss/styles.scss */
+#head ul {
+  display: flex;
+}
