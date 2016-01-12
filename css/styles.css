@@ -18,67 +18,109 @@ body {
 /* line 17, ../scss/styles.scss */
 #head img {
   float: left;
+  display: none;
 }
-/* line 21, ../scss/styles.scss */
+/* line 23, ../scss/styles.scss */
 #head ul {
   display: flex;
 }
-/* line 24, ../scss/styles.scss */
+/* line 26, ../scss/styles.scss */
 #head ul li {
   list-style-type: none;
   flex: 1;
   text-align: center;
   margin: 0px;
 }
-/* line 30, ../scss/styles.scss */
+/* line 32, ../scss/styles.scss */
 #head ul li a {
   text-decoration: none;
   color: white;
   font-family: Times New Roman;
 }
-/* line 34, ../scss/styles.scss */
+/* line 36, ../scss/styles.scss */
 #head ul li a:hover {
   text-decoration: underline;
   color: yellow;
 }
 
-/* line 46, ../scss/styles.scss */
+/* line 48, ../scss/styles.scss */
 #bod {
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-color: white;
 }
-/* line 52, ../scss/styles.scss */
-#bod img {
+
+/* line 56, ../scss/styles.scss */
+.fadein {
   float: left;
-  width: 70%;
-  height: auto;
+  position: relative;
+  width: 65%;
+  height: 450px;
+}
+/* line 62, ../scss/styles.scss */
+.fadein img {
+  position: absolute;
+  height: 90%;
+  width: auto;
   margin: 15px;
   box-sizing: border-box;
 }
 
-/* line 61, ../scss/styles.scss */
+/* line 74, ../scss/styles.scss */
+#banner {
+  position: absolute;
+  height: 10%;
+  width: 65%;
+  margin: 0 0 0% 15px;
+  box-sizing: border-box;
+  background-color: #000;
+  opacity: 0.65;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #FFF;
+  bottom: 150px;
+  z-index: 1;
+}
+
+/* line 93, ../scss/styles.scss */
+.text1 {
+  float: left;
+  width: 30%;
+  padding-right: 2%;
+  margin-top: 2%;
+  box-sizing: border-box;
+}
+
+/* line 104, ../scss/styles.scss */
+.text2 {
+  float: left;
+  width: 100%;
+  padding: 5% 30% 0% 30%;
+  box-sizing: border-box;
+}
+
+/* line 111, ../scss/styles.scss */
 #foot {
   width: 100%;
   height: 230px;
   background-color: grey;
-}
-/* line 66, ../scss/styles.scss */
-#foot div {
   float: left;
 }
 
-/* line 71, ../scss/styles.scss */
-.centrefoot {
-  display: block;
-  margin-top: 10px;
-}
-/* line 75, ../scss/styles.scss */
-.centrefoot img {
-  display: block;
+/* line 123, ../scss/styles.scss */
+.leftfoot {
+  float: left;
+  width: 20%;
 }
 
-/* line 80, ../scss/styles.scss */
+/* line 128, ../scss/styles.scss */
+.centrefoot {
+  float: left;
+  width: 60%;
+}
+
+/* line 142, ../scss/styles.scss */
 .rightfoot {
-  display: right;
+  float: left;
+  width: 20%;
+  text-align: right;
 }

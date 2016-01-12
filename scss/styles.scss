@@ -16,7 +16,9 @@ body {
 
 	img {
 		float: left;
+		display: none;
 	}
+
 
 	ul {
 		display: flex;
@@ -45,38 +47,101 @@ body {
 
 #bod {
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	background-color: white;
 //	margin-top: 70px;
 
+}
+
+.fadein {
+	float: left;
+	position: relative;
+	width: 65%;
+	height: 450px;
+
 	img {
-		float: left;
-		width: 70%;
-		height: auto;
+		position: absolute;
+//		float: left;
+		height: 90%;
+		width: auto;
+//		width: 65%;
+//		height: auto;
 		margin: 15px;
 		box-sizing: border-box;
 	}
+}
+
+#banner {
+//		float: left;
+		position: absolute;
+		height: 10%;
+		width: 65%;
+//		width: 65%;
+//		height: auto;
+		margin: 0 0 0% 15px;
+		box-sizing: border-box;
+
+		background-color: #000;
+		opacity: 0.65;
+		font-family: Verdana, Geneva, sans-serif;
+		color: #FFF;
+		bottom: 150px;
+		z-index: 1;
+
+}
+
+.text1 {
+	float: left;
+	width: 30%;
+	padding-right: 2%;
+	margin-top: 2%;
+	box-sizing: border-box;
+
+//	position: relative;
+//	left: 70%;
+}
+
+.text2 {
+	float: left;
+	width: 100%;
+	padding: 5% 30% 0% 30%;
+	box-sizing: border-box;
 }
 
 #foot {
 	width: 100%;
 	height: 230px;
 	background-color: grey;
+	float: left;
+//	display: inline-block;
 
 	div {
-		float: left;
+	//	float: left;
 	}
 }
 
+.leftfoot {
+	float: left;
+	width: 20%;
+}
+
 .centrefoot {
-	display: block;
-	margin-top: 10px;
+	float: left;
+	width: 60%;
+//	display: block;
+//	margin-top: 10px;
+//	margin-left: auto;
+//	margin-right: auto;
+//	box-sizing: border-box;
 
 	img {
-		display: block;
+//		display: inline;
 	}
 }
 
 .rightfoot {
-	display: right;
+	float: left;
+	width: 20%;
+	text-align: right;
+
 }
