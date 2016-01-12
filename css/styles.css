@@ -110,15 +110,16 @@ body {
 .leftfoot {
   float: left;
   width: 20%;
+  text-align: left;
 }
 
-/* line 128, ../scss/styles.scss */
+/* line 129, ../scss/styles.scss */
 .centrefoot {
   float: left;
   width: 60%;
 }
 
-/* line 142, ../scss/styles.scss */
+/* line 143, ../scss/styles.scss */
 .rightfoot {
   float: left;
   width: 20%;
