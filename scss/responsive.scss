@@ -1,0 +1,128 @@
+
+@import "compass/css3";
+
+
+
+#head {
+	height: 200px;
+
+	#logo {
+		float: left;
+		width: 100%;
+		display: block;
+		margin: 0 auto 0 auto;
+
+		#pic {
+			text-align: center;
+			display: block;
+			margin: 0 auto 0 auto;
+		}
+
+	}
+
+}
+
+		#pic.center {
+			display: block;
+			margin: 0 auto;
+		}
+
+
+#bod {
+	height: 1500px;
+}
+
+.fadein {
+	width: 100%;
+	height: 35%;
+
+	img {
+		width: 95%;
+		height: auto;
+	}
+}
+
+#banner {
+	top: 215px;
+	width: 91.2%;
+}
+
+.text1 {
+	float: left;
+	width: 100%;
+	padding: 0 20% 10% 20%;
+	margin-top: 120px;
+	box-sizing: border-box;
+	text-align: justify;
+//	position: relative;
+//	left: 70%;
+}
+
+
+@media screen and (max-width: 800px) {
+	.text1 {
+		margin-top: 0px;
+
+	}
+
+}
+
+@media screen and (max-width: 620px) {
+
+.fadein {
+	height: 360px;
+}
+
+#foot {
+	height: 1000px;
+}
+
+	#footbox {
+		float: none;
+		height: 100%;
+		.leftfoot {
+//			float: none;
+			width: 100%;
+			height: 500px;
+
+		}
+		.centrefoot {
+//			float: none;
+			width: 100%;
+
+		}
+		.rightfoot {
+//			float: none;
+			width: 100%;
+
+		}
+	}
+
+}
+
+
+@media screen and (max-width: 475px) {
+	#head {
+		height: 250px;
+	}
+
+	#banner {
+		top: 265px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+
+	.fadein {
+		height: 300px;
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+
+	.fadein {
+		height: 230px;
+	}
+
+}

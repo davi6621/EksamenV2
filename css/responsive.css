@@ -1,0 +1,115 @@
+/* line 6, ../scss/responsive.scss */
+#head {
+  height: 200px;
+}
+/* line 9, ../scss/responsive.scss */
+#head #logo {
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+/* line 15, ../scss/responsive.scss */
+#head #logo #pic {
+  text-align: center;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+/* line 25, ../scss/responsive.scss */
+#pic.center {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 31, ../scss/responsive.scss */
+#bod {
+  height: 1500px;
+}
+
+/* line 35, ../scss/responsive.scss */
+.fadein {
+  width: 100%;
+  height: 35%;
+}
+/* line 39, ../scss/responsive.scss */
+.fadein img {
+  width: 95%;
+  height: auto;
+}
+
+/* line 45, ../scss/responsive.scss */
+#banner {
+  top: 215px;
+  width: 91.2%;
+}
+
+/* line 50, ../scss/responsive.scss */
+.text1 {
+  float: left;
+  width: 100%;
+  padding: 0 20% 10% 20%;
+  margin-top: 120px;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 63, ../scss/responsive.scss */
+  .text1 {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 620px) {
+  /* line 72, ../scss/responsive.scss */
+  .fadein {
+    height: 360px;
+  }
+
+  /* line 76, ../scss/responsive.scss */
+  #foot {
+    height: 1000px;
+  }
+
+  /* line 80, ../scss/responsive.scss */
+  #footbox {
+    float: none;
+    height: 100%;
+  }
+  /* line 83, ../scss/responsive.scss */
+  #footbox .leftfoot {
+    width: 100%;
+    height: 500px;
+  }
+  /* line 89, ../scss/responsive.scss */
+  #footbox .centrefoot {
+    width: 100%;
+  }
+  /* line 94, ../scss/responsive.scss */
+  #footbox .rightfoot {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 475px) {
+  /* line 105, ../scss/responsive.scss */
+  #head {
+    height: 250px;
+  }
+
+  /* line 109, ../scss/responsive.scss */
+  #banner {
+    top: 265px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* line 116, ../scss/responsive.scss */
+  .fadein {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* line 124, ../scss/responsive.scss */
+  .fadein {
+    height: 230px;
+  }
+}
