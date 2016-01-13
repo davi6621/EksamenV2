@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>FTM Byg</title>
+	<title>FTM Byg - Fjelstervang Tømrer- og Murerfirma aps</title>
+	<meta name="description" content="Fjelstervang Tømrer- og Murerfirma er altid klar med et godt tilbud, til byggeprojekter store som små. Vi er kendt for vores 27 års erfaring, pålidelighed, kvalitet og god rådgivning.">
 
 	<link rel="stylesheet" href="css/jquery-ui.min.css">
 	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 600px)"></head>
+	<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 1075px)"></head>
 
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
@@ -17,61 +18,91 @@
 	<div id="wrapper">
 
 		<header id="head">
-			<img id="pic" src="images/header002w-v2.jpg">
+			<div id="logo">
+				<img id="pic" src="images/header002w-v2.jpg" title="Firma Logo">
+			</div>
 
-			<ul>
-				<li><a href="#">Forside</a></li>
-				<li><a href="#">Referencer</a></li>
-				<li><a href="#">Vore kunder mener</a></li>
-			</ul>
-			<ul>
-				<li><a href="#">Firmaprofil</a></li>
-				<li><a href="#">Kontakt</a></li>
-				<li><a href="#">Find vej</a></li>
-				<li><a href="#">Links</a></li>
-			</ul>
+			<div id="links">
+				<ul>
+					<li><a href="index.html" title="Forside"><b class="letter">F</b>orside</a></li>
+					<li>
+						<a href="https://en.wikipedia.org/wiki/Main_Page" title="Referencer"><b class="letter">R</b>eferencer</a>
+<!--						<ul>
+							<li>
+								<a href="">Villaer</a>
+							</li>
+							<li>
+								<a href="">Institutioner</a>
+							</li>
+							<li>
+								<a href="">Forretninger mm</a>
+							</li>
+							<li>
+								<a href="">Stalde mm</a>
+							</li>
+							<li>
+								<a href="">Andet</a>
+							</li>
+						</ul>
+-->
+					</li>
+					<li><a href="http://www.4chan.org/" title="Kunde meninger"><b class="letter">V</b>ore kunder mener</a></li>
+				</ul>
+				<ul>
+					<li><a href="#" title="Firmaprofil"><b class="letter">F</b>irma-profil</a></li>
+					<li><a href="#" title="Kontakt"><b class="letter">K</b>ontakt</a></li>
+					<li><a href="http://blog.lefigaro.fr/hightech/middle-earth-map.jpg" title="Vejfinder"><b class="letter">F</b>ind vej</a></li>
+					<li><a href="#" title="Links"><b class="letter">L</b>inks</a></li>
+				</ul>
+			</div>
 
 		</header>
 
 		<main id="bod">
-			<div class="fadein">
-				<img src="images/slide1.jpg" alt="slide-1">
-				<img src="images/slide2.jpg" alt="slide-2">
-				<img src="images/slide3.jpg" alt="slide-3">
-				<img src="images/slide4.jpg" alt="slide-4">
-				<img src="images/slide5.jpg" alt="slide-5">
-				<img src="images/slide6.jpg" alt="slide-6">
-			</div>
 
-			<div id="banner"><p>Glint af vores projekter</p></div> 
+				<div class="fadein">
+					<img src="images/slide1.jpg" alt="slide-1">
+					<img src="images/slide2.jpg" alt="slide-2">
+					<img src="images/slide3.jpg" alt="slide-3">
+					<img src="images/slide4.jpg" alt="slide-4">
+					<img src="images/slide5.jpg" alt="slide-5">
+					<img src="images/slide6.jpg" alt="slide-6">
+				</div>
+
+				<div id="banner">
+					<b><b class="letter">GLINT AF VORES PROJEKTER</b></br>
+					Se flere referencer her <a href="https://en.wikipedia.org/wiki/Main_Page">--></a>
+					</b>
+				</div> 
 
 			<div class="text1">
-				<b>Velkommen hos Fjelstervang Tømrer- og Murerfirma</b>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, error molestiae culpa incidunt soluta ratione sed perferendis architecto, quae et provident fugit laborum doloribus. Tempora iusto, odio omnis corporis eos!</p>
+				<h2 class="boldfont">VELKOMMEN HOS FJELSTERVANG TØMRER- OG MURERFIRMA</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, error molestiae culpa incidunt soluta ratione sed perferendis architecto, quae et provident fugit laborum doloribus. Tempora iusto, odio omnis corporis eos!</p>
 			</div>
 
 			<div class="text2">
-				<b>Vi tilbyder</b>
+				<h2 class="boldfont">VI TILBYDER</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, error molestiae culpa incidunt soluta ratione sed perferendis architecto, quae et provident fugit laborum doloribus. Tempora iusto, odio omnis corporis eos!</p>
 			</div>
 		</main>
 
 		<footer id="foot">
-			<div>
+			<div class=footbox>
+				<div class="leftfoot">
 
-				<p>Fjelstervang Tømrer- og Murerfirma </br>Haunstrupvej 6 </br>6933 Kibæk </br>Tlf. 97166349 / 20960349</p>
-			</div>
+					<p><b>Fjelstervang Tømrer- og Murerfirma</b> </br>Haunstrupvej 6 </br>6933 Kibæk </br>Tlf. 97166349 / 20960349</p>
+				</div>
 
-			<div class="centrefoot">
-				<img src="images/csm-lindab.png" alt="Lindab TagXpert">
-				<img src="images/csm-sto.jpg" alt="sto">
-				<img src="images/csm-danskhåndværk.jpg" alt="Dansk Håndværk">
-				<img src="images/csm-rockwool.jpg" alt="Rockwool">
-			</div>
+				<div class="centrefoot">
+					<a href="http://www.lindab.com/dk/pro/pages/default.aspx?redirecttoproorhome=true&i=2567" title="Linda TagXpert"><img src="images/csm-lindab.png" alt="Lindab TagXpert"></a>
+					<a href="http://www.stodanmark.dk/da/home/home.html" title="sto"><img src="images/csm-sto.jpg" alt="sto"></a>
+					<a href="http://www.ftmbyg.dk/fileadmin/dokumenter/dansk_haandvaerk_garanti.pdf" title="Dansk Håndværk"><img src="images/csm-danskhåndværk.jpg" alt="Dansk Håndværk"></a>
+					<a href="http://www.ftmbyg.dk/index.php?id=22" title="Rockwool"><img src="images/csm-rockwool.jpg" alt="Rockwool"></a>
+				</div>
 				
-			<div class="rightfoot">
-				<p>&copy phnet.dk admin</p>
+				<div class="rightfoot">
+					<b>&copy phnet.dk admin</b>
+				</div>
 			</div>
 
 		</footer>

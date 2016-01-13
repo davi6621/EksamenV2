@@ -1,63 +1,76 @@
-/* line 3, ../scss/styles.scss */
+/* line 4, ../scss/styles.scss */
 body {
   margin: 0;
 }
 
-/* line 7, ../scss/styles.scss */
+/* line 8, ../scss/styles.scss */
 #wrapper {
   width: 100%;
-  height: auto;
+  height: 100%;
   background-color: #9D2429;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-/* line 13, ../scss/styles.scss */
+/* line 15, ../scss/styles.scss */
 #head {
   width: 100%;
   height: 120px;
 }
-/* line 17, ../scss/styles.scss */
-#head img {
+/* line 19, ../scss/styles.scss */
+#head #logo {
+  float: left;
+}
+/* line 23, ../scss/styles.scss */
+#head #logo #pic {
   float: left;
   display: none;
 }
-/* line 23, ../scss/styles.scss */
-#head ul {
+/* line 31, ../scss/styles.scss */
+#head #links ul {
   display: flex;
+  margin: 0;
 }
-/* line 26, ../scss/styles.scss */
-#head ul li {
+/* line 35, ../scss/styles.scss */
+#head #links ul li {
   list-style-type: none;
   flex: 1;
   text-align: center;
-  margin: 0px;
+  margin: 15px 0 0 0;
 }
-/* line 32, ../scss/styles.scss */
-#head ul li a {
+/* line 41, ../scss/styles.scss */
+#head #links ul li a {
   text-decoration: none;
   color: white;
-  font-family: Times New Roman;
 }
-/* line 36, ../scss/styles.scss */
-#head ul li a:hover {
+/* line 44, ../scss/styles.scss */
+#head #links ul li a:hover {
   text-decoration: underline;
   color: yellow;
 }
 
-/* line 48, ../scss/styles.scss */
-#bod {
-  width: 100%;
-  height: 600px;
-  background-color: white;
+/* line 58, ../scss/styles.scss */
+.letter {
+  color: yellow;
 }
 
-/* line 56, ../scss/styles.scss */
+/* line 62, ../scss/styles.scss */
+#bod {
+  width: 96%;
+  height: 700px;
+  background-color: #d3d3d3;
+  margin: 0 2% 0 2%;
+  border-radius: 10px 10px 0 0;
+  box-sizing: border-box;
+}
+
+/* line 79, ../scss/styles.scss */
 .fadein {
   float: left;
   position: relative;
   width: 65%;
   height: 450px;
 }
-/* line 62, ../scss/styles.scss */
+/* line 85, ../scss/styles.scss */
 .fadein img {
   position: absolute;
   height: 90%;
@@ -66,62 +79,105 @@ body {
   box-sizing: border-box;
 }
 
-/* line 74, ../scss/styles.scss */
+/* line 97, ../scss/styles.scss */
 #banner {
   position: absolute;
-  height: 10%;
-  width: 65%;
+  top: 500px;
+  height: 41px;
+  width: 608px;
   margin: 0 0 0% 15px;
   box-sizing: border-box;
   background-color: #000;
   opacity: 0.65;
   font-family: Verdana, Geneva, sans-serif;
   color: #FFF;
-  bottom: 150px;
   z-index: 1;
+  text-align: center;
 }
 
-/* line 93, ../scss/styles.scss */
+/* line 118, ../scss/styles.scss */
+#banner a {
+  text-decoration: none;
+  color: red;
+}
+/* line 121, ../scss/styles.scss */
+#banner a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+/* line 127, ../scss/styles.scss */
 .text1 {
   float: left;
   width: 30%;
   padding-right: 2%;
-  margin-top: 2%;
   box-sizing: border-box;
+  text-align: justify;
 }
 
-/* line 104, ../scss/styles.scss */
+/* line 138, ../scss/styles.scss */
 .text2 {
   float: left;
   width: 100%;
-  padding: 5% 30% 0% 30%;
+  padding: 0% 30% 0% 30%;
   box-sizing: border-box;
+  text-align: justify;
 }
 
-/* line 111, ../scss/styles.scss */
+/* line 146, ../scss/styles.scss */
+.boldfont {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* line 151, ../scss/styles.scss */
 #foot {
   width: 100%;
-  height: 230px;
-  background-color: grey;
+  height: 190px;
+  background-color: #9D2429;
   float: left;
+  color: #9D2429;
 }
 
-/* line 123, ../scss/styles.scss */
+/* line 164, ../scss/styles.scss */
+.footbox {
+  width: 96%;
+  padding: 0 2% 0 2%;
+}
+
+/* line 169, ../scss/styles.scss */
 .leftfoot {
   float: left;
   width: 20%;
+  height: 150px;
   text-align: left;
+  padding-left: 5px;
+  background-color: white;
+  border-radius: 0 0 0 10px;
+  box-sizing: border-box;
+}
+/* line 178, ../scss/styles.scss */
+.leftfoot p {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-/* line 129, ../scss/styles.scss */
+/* line 185, ../scss/styles.scss */
 .centrefoot {
   float: left;
   width: 60%;
+  height: 150px;
+  background-color: white;
 }
 
-/* line 143, ../scss/styles.scss */
+/* line 201, ../scss/styles.scss */
 .rightfoot {
   float: left;
   width: 20%;
+  height: 150px;
+  background-color: white;
   text-align: right;
+  padding-right: 5px;
+  border-radius: 0 0 10px 0;
+  box-sizing: border-box;
 }
